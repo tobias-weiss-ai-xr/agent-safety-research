@@ -18282,7 +18282,7 @@ papers:
   - Jiayi Wang
   venue: ''
   code_url: https://github.com/HierSVAAnon/HierSVACodeAndArtifacts
-  project_url: https://huggingface.co/datasets/AnonymousHierSVA/HierSVA}{https://huggingface.co/datasets/AnonymousHierSVA/HierSVA}
+  project_url: https://huggingface.co/datasets/AnonymousHierSVA/HierSVA
   abstract: 'We present HierSVA, an integrated suite that combines a pipeline, dataset,
     and benchmark for LLM-driven hierarchical hardware formal verification. HierSVA-SP
     pairs an RTL preprocessing toolchain with an LLM-in-the-loop formal verification
@@ -29900,7 +29900,6 @@ papers:
   - Maria Ntonti
   - Emmanuel Müller
   venue: ''
-  code_url: https://github.com/KDD-OpenSource/Ambivision.git
   project_url: ''
   abstract: From uncertainty quantification to real-world object detection, we recognize
     the importance of machine learning algorithms, particularly in safety-critical
@@ -31917,7 +31916,7 @@ papers:
   - Roy Ka-Wei Lee
   venue: ''
   code_url: ''
-  project_url: https://govtech-responsibleai.github.io/agentic-risk-capability-framework/}{here}
+  project_url: https://govtech-responsibleai.github.io/agentic-risk-capability-framework/
   abstract: 'Agentic AI systems present both significant opportunities and novel risks
     due to their capacity for autonomous action, encompassing tasks such as code execution,
     internet interaction, and file modification. This poses considerable challenges
@@ -45920,7 +45919,6 @@ papers:
   - Botian Shi
   venue: ''
   code_url: ''
-  project_url: https://alperen-hub.github.io/SceneDM
   abstract: Realistic scene-level multi-agent motion simulations are crucial for developing
     and evaluating self-driving algorithms. However, most existing works focus on
     generating trajectories for a certain single agent type, and typically ignore
@@ -47042,7 +47040,6 @@ papers:
   - Xiang Zheng
   - Cong Wang
   venue: ''
-  code_url: https://github.com/henrymao2004/Auto-research-red-teaming-in-sleep
   project_url: ''
   abstract: Production LLM agents such as Claude Code and Codex operate over untrusted
     content, files, commands, and workspace state, making safety failures directly
