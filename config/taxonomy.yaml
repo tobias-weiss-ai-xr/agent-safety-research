@@ -1,0 +1,342 @@
+# Agent Safety Research Taxonomy & Discovery Config
+#
+# Focus: Safety, alignment, governance, and interpretability of AI agents
+#
+# Pipeline: config/taxonomy.yaml -> papers.yaml -> validate -> README -> reports
+
+# please edit below for your topic -------------------------------------------
+
+# --- Topic -----------------------------------------------------------
+topic:
+  name: "Agent Safety Research"
+  short: "agent-safety"
+  description: "Safety, alignment, governance, and interpretability of AI agents and autonomous systems."
+  openalex_mailto: "research+safety@tobias-weiss-ai-xr.de"
+
+# --- Taxonomy ----------------------------------------------------------
+# Categories = the main axis of your review
+# Subcategories = the secondary axis
+# Each paper must carry one category + one subcategory.
+taxonomy:
+  categories:
+    - id: self-improvement
+      display: "Self-Improving Systems"
+      description: "Recursive self-improvement, auto-improving agents, and self-evolving systems"
+
+    - id: alignment
+      display: "Agent Alignment & Control"
+      description: "Ensuring agents pursue intended objectives safely"
+
+    - id: safety-verification
+      display: "Safety & Verification"
+      description: "Formal verification, safety guarantees, and testing for agents"
+
+    - id: interpretability
+      display: "Interpretability & Transparency"
+      description: "Understanding agent behavior and mechanisms"
+
+    - id: governance
+      display: "AI Governance & Policy"
+      description: "Regulatory frameworks, standards, and policy implications"
+
+    - id: deceptive-ai
+      display: "Deceptive AI & Misalignment"
+      description: "Detection and prevention of deceptive behavior in AI systems"
+
+    - id: evaluation
+      display: "Evaluation & Benchmarks"
+      description: "Metrics, benchmarks, and testing methodologies for agent safety"
+
+    - id: method
+      display: "Methods & Architectures"
+      description: "Safety-focused architectures and methodological approaches"
+
+    - id: application
+      display: "Safety Applications"
+      description: "Real-world applications of safe AI agents"
+
+    - id: survey
+      display: "Surveys & Taxonomies"
+      description: "Comprehensive surveys and systematic reviews"
+
+  subcategories:
+    # Self-Improving Systems
+    - id: recursive-improvement
+      display: "Recursive Self-Improvement"
+      description: "Agents that can improve their own code or architecture"
+
+    - id: self-evolution
+      display: "Self-Evolving Systems"
+      description: "Systems that evolve through iterative self-modification"
+
+    - id: meta-learning
+      display: "Meta-Learning for Agents"
+      description: "Learning to improve learning processes"
+
+    - id: auto-improving
+      display: "Auto-Improving Agents"
+      description: "Agents with autonomous improvement capabilities"
+
+    # Alignment & Control
+    - id: objective-alignment
+      display: "Objective Alignment"
+      description: "Ensuring agent goals match human intentions"
+
+    - id: reward-design
+      display: "Reward Engineering"
+      description: "Designing reward functions for safe behavior"
+
+    - id: oversight
+      display: "Human Oversight"
+      description: "Human-in-the-loop control and supervision"
+
+    - id: scalable-oversight
+      display: "Scalable Oversight"
+      description: "Handling oversight at scale for many agents"
+
+    # Safety & Verification
+    - id: formal-verification
+      display: "Formal Verification"
+      description: "Mathematical proofs of agent safety properties"
+
+    - id: runtime-monitoring
+      display: "Runtime Monitoring"
+      description: "Real-time safety checks during agent execution"
+
+    - id: safety-guarantees
+      display: "Safety Guarantees"
+      description: "Provable safety properties of agent systems"
+
+    - id: failsafe-mechanisms
+      display: "Fail-Safe Mechanisms"
+      description: "Fallbacks and recovery mechanisms for agent failures"
+
+    # Interpretability
+    - id: mechanistic-interpretability
+      display: "Mechanistic Interpretability"
+      description: "Understanding internal mechanisms of agent decision-making"
+
+    - id: circuit-analysis
+      display: "Circuit Analysis"
+      description: "Analysis of neural circuits in agent models"
+
+    - id: explainability
+      display: "Explainable AI"
+      description: "Methods for explaining agent decisions to humans"
+
+    - id: transparency
+      display: "Transparent Reasoning"
+      description: "Making agent reasoning processes auditable"
+
+    # Governance & Policy
+    - id: regulation
+      display: "Regulation & Compliance"
+      description: "Legal and regulatory frameworks for AI agents"
+
+    - id: standards
+      display: "Standards & Best Practices"
+      description: "Industry standards and safety best practices"
+
+    - id: ethics
+      display: "AI Ethics"
+      description: "Ethical considerations for autonomous systems"
+
+    - id: risk-management
+      display: "Risk Assessment & Management"
+      description: "Identifying and mitigating AI risks"
+
+    # Deceptive AI
+    - id: deception-detection
+      display: "Deception Detection"
+      description: "Identifying deceptive behavior in AI systems"
+
+    - id: truthfulness
+      display: "Truthfulness & Honesty"
+      description: "Ensuring agents provide accurate information"
+
+    - id: sycophancy
+      display: "Sycophancy Detection"
+      description: "Detecting when agents tell users what they want to hear"
+
+    - id: manipulation-resistance
+      display: "Manipulation Resistance"
+      description: "Resisting adversarial manipulation"
+
+    # Evaluation
+    - id: safety-benchmarks
+      display: "Safety Benchmarks"
+
+    - id: red-teaming
+      display: "Red Teaming"
+      description: "Adversarial testing of agent systems"
+
+    - id: stress-testing
+      display: "Stress Testing"
+      description: "Testing agents under extreme conditions"
+
+    - id: real-world-metrics
+      display: "Real-World Performance"
+      description: "Evaluation in practical deployment scenarios"
+
+    # Methods
+    - id: constraint-based
+      display: "Constraint-Based Safety"
+      description: "Using constraints to enforce safe behavior"
+
+    - id: probabilistic
+      display: "Probabilistic Safety"
+      description: "Safety methods using probability theory"
+
+    - id: learning-based
+      display: "Learning-Based Safety"
+      description: "Learning safety from data and experience"
+
+    - id: hybrid-approaches
+      display: "Hybrid Approaches"
+      description: "Combining multiple safety techniques"
+
+    # Applications
+    - id: autonomous-vehicles
+      display: "Autonomous Vehicles"
+      description: "Safety in self-driving cars and robots"
+
+    - id: healthcare
+      display: "Healthcare Agents"
+      description: "Safe AI agents in medical applications"
+
+    - id: finance
+      display: "Financial Agents"
+      description: "Safety for AI in financial systems"
+
+    - id: military-defense
+      display: "Military & Defense"
+      description: "Safety considerations for defense applications"
+
+
+# --- Discovery: arXiv queries ------------------------------------------
+arxiv_queries:
+  # Self-improving systems
+  - query: 'cat:cs.AI AND "self-improving" AND (agent OR system OR AI)'
+    category: self-improvement
+    subcategory_hint: recursive-improvement
+  - query: 'cat:cs.AI AND "recursive self-improvement" AND (language OR model)'
+    category: self-improvement
+    subcategory_hint: recursive-improvement
+  - query: 'cat:cs.AI AND "auto-improving" AND (AI OR agent OR system)'
+    category: self-improvement
+    subcategory_hint: auto-improving
+  - query: 'cat:cs.AI AND "self-evolving" AND (system OR architecture)'
+    category: self-improvement
+    subcategory_hint: self-evolution
+  - query: 'cat:cs.AI AND "meta-learning" AND (agent OR self-improvement)'
+    category: self-improvement
+    subcategory_hint: meta-learning
+
+  # Agent alignment
+  - query: 'cat:cs.AI AND "agent alignment" AND (safety OR control)'
+    category: alignment
+    subcategory_hint: objective-alignment
+  - query: 'cat:cs.AI AND "value alignment" AND (AI OR agent)'
+    category: alignment
+    subcategory_hint: objective-alignment
+  - query: 'cat:cs.AI AND "reward engineering" AND (safety OR alignment)'
+    category: alignment
+    subcategory_hint: reward-design
+  - query: 'cat:cs.AI AND "human oversight" AND (agent OR AI OR system)'
+    category: alignment
+    subcategory_hint: oversight
+  - query: 'cat:cs.AI AND "scalable oversight" AND (LLM OR agent)'
+    category: alignment
+    subcategory_hint: scalable-oversight
+
+  # Safety & Verification
+  - query: 'cat:cs.AI AND "formal verification" AND (AI OR agent OR safety)'
+    category: safety-verification
+    subcategory_hint: formal-verification
+  - query: 'cat:cs.AI AND "runtime monitoring" AND (agent OR AI OR safety)'
+    category: safety-verification
+    subcategory_hint: runtime-monitoring
+  - query: 'cat:cs.AI AND "safety guarantees" AND (AI OR agent)'
+    category: safety-verification
+    subcategory_hint: safety-guarantees
+
+  # Interpretability
+  - query: 'cat:cs.AI AND "mechanistic interpretability" AND (agent OR model)'
+    category: interpretability
+    subcategory_hint: mechanistic-interpretability
+  - query: 'cat:cs.AI AND "circuit analysis" AND (LLM OR language OR model)'
+    category: interpretability
+    subcategory_hint: circuit-analysis
+  - query: 'cat:cs.AI AND "explainable AI" AND (agent OR autonomous)'
+    category: interpretability
+    subcategory_hint: explainability
+
+  # Governance & Policy
+  - query: 'cat:cs.AI AND "AI governance" AND (agent OR autonomous OR system)'
+    category: governance
+    subcategory_hint: regulation
+  - query: 'cat:cs.AI AND "AI policy" AND (safety OR alignment OR autonomous)'
+    category: governance
+    subcategory_hint: regulation
+  - query: 'cat:cs.AI AND "AI standards" AND (safety OR autonomous)'
+    category: governance
+    subcategory_hint: standards
+
+  # Deceptive AI
+  - query: 'cat:cs.AI AND "deceptive AI" AND (detection OR agent OR LLM)'
+    category: deceptive-ai
+    subcategory_hint: deception-detection
+  - query: 'cat:cs.AI AND "truthfulness" AND (LLM OR agent OR AI)'
+    category: deceptive-ai
+    subcategory_hint: truthfulness
+  - query: 'cat:cs.AI AND "sycophancy" AND (LLM OR agent)'
+    category: deceptive-ai
+    subcategory_hint: sycophancy
+  - query: 'cat:cs.AI AND "deception" AND (LLM OR agent OR AI)'
+    category: deceptive-ai
+    subcategory_hint: deception-detection
+
+  # Evaluation & Benchmarks
+  - query: 'cat:cs.AI AND "agent benchmark" AND (safety OR evaluation)'
+    category: evaluation
+    subcategory_hint: safety-benchmarks
+  - query: 'cat:cs.AI AND "red teaming" AND (LLM OR agent OR AI)'
+    category: evaluation
+    subcategory_hint: red-teaming
+  - query: 'cat:cs.AI AND "agent evaluation" AND (safety OR alignment)'
+    category: evaluation
+    subcategory_hint: real-world-metrics
+
+
+# --- Discovery: OpenAlex bulk queries -------------------------------
+# These are used by fetch_openalex_bulk.py per category
+openalex_queries:
+  - category: self-improvement
+    query: "recursive self-improvement language model agent autonomous"
+
+  - category: alignment
+    query: "agent alignment value alignment objective alignment reward engineering human oversight"
+
+  - category: safety-verification
+    query: "formal verification runtime monitoring safety guarantees testing autonomous systems"
+
+  - category: interpretability
+    query: "mechanistic interpretability circuit analysis explainable AI transparency reasoning"
+
+  - category: governance
+    query: "AI governance policy regulation standards compliance risk management autonomous agents"
+
+  - category: deceptive-ai
+    query: "deceptive AI truthfulness sycophancy deception detection manipulation resistance LLM"
+
+  - category: evaluation
+    query: "agent benchmark safety evaluation red teaming stress testing performance metrics"
+
+  - category: method
+    query: "safety methods constraint-based probabilistic learning-based hybrid approaches"
+
+  - category: application
+    query: "autonomous vehicles healthcare finance military defense AI safety"
+
+  - category: survey
+    query: "survey review taxonomy safety alignment autonomous agents AI"
