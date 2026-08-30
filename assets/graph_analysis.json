@@ -91,23 +91,23 @@
   {
    "id": "interpretability",
    "name": "Interpretability & Transparency",
-   "count": 233,
+   "count": 232,
    "trajectory": {
     "2023": 4,
     "2024": 36,
-    "2025": 115,
+    "2025": 114,
     "2026": 78
    },
    "momentum": {
     "id": "interpretability",
     "name": "Interpretability",
-    "total": 233,
+    "total": 232,
     "recent": 133,
-    "prior": 80,
-    "growth_pct": 66.2,
-    "recent_share": 0.571,
+    "prior": 79,
+    "growth_pct": 68.4,
+    "recent_share": 0.573,
     "papers_per_month": 11.1,
-    "score": 123.3
+    "score": 125.7
    }
   },
   {
@@ -179,7 +179,7 @@
   {
    "id": "mechanistic-interpretability",
    "name": "Mechanistic Interpretability",
-   "count": 99
+   "count": 98
   },
   {
    "id": "meta-learning",
@@ -2727,11 +2727,6 @@
    "2025-06",
    "interpretability",
    "explainability"
-  ],
-  [
-   "2025-06",
-   "interpretability",
-   "mechanistic-interpretability"
   ],
   [
    "2025-06",
@@ -8625,35 +8620,35 @@
   {
    "keyword": "tool",
    "recent": 275,
-   "total": 353,
-   "burst_score": 1.16,
+   "total": 352,
+   "burst_score": 1.17,
    "recent_share": 0.2475
   },
   {
    "keyword": "benchmark",
    "recent": 390,
-   "total": 509,
-   "burst_score": 1.14,
+   "total": 508,
+   "burst_score": 1.15,
    "recent_share": 0.351
   },
   {
    "keyword": "evaluation",
    "recent": 419,
-   "total": 567,
+   "total": 566,
    "burst_score": 1.1,
    "recent_share": 0.3771
   },
   {
    "keyword": "framework",
    "recent": 572,
-   "total": 798,
+   "total": 797,
    "burst_score": 1.07,
    "recent_share": 0.5149
   },
   {
    "keyword": "system",
    "recent": 720,
-   "total": 1021,
+   "total": 1020,
    "burst_score": 1.05,
    "recent_share": 0.6481
   },
@@ -8681,7 +8676,7 @@
   {
    "keyword": "model",
    "recent": 844,
-   "total": 1264,
+   "total": 1263,
    "burst_score": 1.0,
    "recent_share": 0.7597
   },
@@ -8696,7 +8691,7 @@
    "keyword": "scalable",
    "recent": 88,
    "total": 139,
-   "burst_score": 0.95,
+   "burst_score": 0.94,
    "recent_share": 0.0792
   },
   {

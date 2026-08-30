@@ -15,8 +15,8 @@ Generated via research-runner pipeline.
 
 ## 📊 Corpus Statistics
 
-**1659 papers** across **7 categories**.  
-Sources: **arXiv** 1659 (100%).  
+**1658 papers** across **7 categories**.  
+Sources: **arXiv** 1658 (100%).  
 
 ### Top categories
 
@@ -26,7 +26,7 @@ Sources: **arXiv** 1659 (100%).
 | deceptive-ai | **288** | 198 | ████████████ |
 | alignment | **271** | 172 | ███████████░ |
 | evaluation | **248** | 176 | ██████████░░ |
-| interpretability | **233** | 133 | ██████████░░ |
+| interpretability | **232** | 133 | ██████████░░ |
 | safety-verification | **209** | 147 | █████████░░░ |
 | governance | **121** | 77 | █████░░░░░░░ |
 
@@ -36,7 +36,7 @@ Sources: **arXiv** 1659 (100%).
 |------|--------|-|
 | 2023 | 40 | █░░░░░░░░░░░ |
 | 2024 | 219 | ███░░░░░░░░░ |
-| 2025 | 585 | █████████░░░ |
+| 2025 | 584 | █████████░░░ |
 | 2026 | 815 | ████████████ |
 
 ### Momentum (hottest categories)
@@ -49,14 +49,14 @@ Sources: **arXiv** 1659 (100%).
 | Safety Verification | 209 | 12.2/mo | 70% | 276 |
 | Alignment | 271 | 14.3/mo | 64% | 255 |
 | Governance | 121 | 6.4/mo | 64% | 178 |
-| Interpretability | 233 | 11.1/mo | 57% | 123 |
+| Interpretability | 232 | 11.1/mo | 57% | 126 |
 
 ### Trending keywords
 
 | Keyword | Papers | Burst |
 |---------|--------|-------|
-| tool | 275 | 1.16 |
-| benchmark | 390 | 1.14 |
+| tool | 275 | 1.17 |
+| benchmark | 390 | 1.15 |
 | evaluation | 419 | 1.1 |
 | framework | 572 | 1.07 |
 | system | 720 | 1.05 |
