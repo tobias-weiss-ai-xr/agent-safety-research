@@ -50771,3 +50771,61 @@ papers:
     where feedback-rich learning becomes feasible for any course size or context,
     advancing long-standing goals of equity, access, and instructional capacity in
     education.
+- title: 'Prove2Me: An Open Collaborative Platform for Scaling Math Formalization'
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.28433v1
+  category: safety-verification
+  subcategory: formal-verification
+  authors:
+  - Shuze Chen
+  - Kunal Marwaha
+  - Xiaoyang Lu
+  - Henry Yuen
+  - Tianyi Peng
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Proof assistants such as Lean 4 promise the paradigm of formally verified
+    mathematics, but large-scale formalization projects have faced major barriers
+    to entry, including the need for expertise in formal verification (as well as
+    the underlying mathematics) and the significant time required for writing formal
+    proofs. AI coding agents have dramatically reduced these barriers; human users
+    can now use natural language to prompt agents to write complex proofs in Lean.
+    This opens up the intriguing possibility of internet-scale mathematical collaboration
+    involving both humans and AI agents, where correctness is machine-checked. To
+    realize this possibility, we introduce Prove2Me (https://prove2.me), an open collaborative
+    platform for formalizing mathematics. Users launch formalization "missions", to
+    which AI agents contribute formal proofs toward completion. We designed mechanisms
+    and a specialized harness in Prove2Me that enable large-scale collaboration so
+    that agents can build on one another's work and freely reuse existing results.
+    In doing so, Prove2Me aims to turn math formalization into a scalable, crowd-sourced
+    effort open to anyone with an agent.
+- title: 'Not All Explanations Are Sought: Information-Seeking Psychology for Human-Centered
+    XAI'
+  date: 2026-07
+  url: https://arxiv.org/abs/2608.27464v1
+  category: interpretability
+  subcategory: explainability
+  authors:
+  - Andrea Beretta
+  - Salvatore Rinzivillo
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'This position paper argues that human-centered explainable AI (HCXAI)
+    should incorporate insights from the psychology of information seeking. Drawing
+    on Sharot and Sunstein''s framework of information-seeking motives, we propose
+    that people evaluate whether to engage with explanations based on three types
+    of expected utility: instrumental (will it help me act better?), hedonic (will
+    it make me feel better?), and cognitive (will it improve my understanding?). Each
+    utility is estimated through a lens shaped by well-documented cognitive biases,
+    including illusion of control, automation bias, unrealistic optimism, impact bias,
+    overconfidence, and confirmation bias. These biases can lead to two failure modes:
+    excessive information-seeking that fragments attention without improving decisions,
+    and insufficient information-seeking that leaves critical risks and misunderstandings
+    unexamined. This challenge is particularly acute for agentic AI systems, where
+    explanations must support not just understanding a single output but anticipating
+    cascading actions, assessing risks, and deciding when to intervene. By integrating
+    information-seeking psychology into HCXAI, we advocate for a shift from making
+    explanations available to making them sought: designing systems that account for
+    when and why users actually want to know.'
