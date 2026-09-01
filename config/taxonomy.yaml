@@ -312,31 +312,31 @@ arxiv_queries:
 # These are used by fetch_openalex_bulk.py per category
 openalex_queries:
   - category: self-improvement
-    query: "self-improving AI autonomous agent intelligence evolution"
+    query: "self-improving AI agent"
 
   - category: alignment
-    query: "AI alignment value alignment reward engineering safety human oversight"
+    query: "AI alignment safety"
 
   - category: safety-verification
-    query: "formal verification safety guarantees autonomous system validation"
+    query: "formal verification AI safety"
 
   - category: interpretability
-    query: "interpretability explainable AI transparency mechanistic analysis"
+    query: "AI interpretability explainable"
 
   - category: governance
-    query: "AI governance policy regulation standards compliance risk management autonomous"
+    query: "AI governance policy"
 
   - category: deceptive-ai
-    query: "deception sycophancy truthfulness AI manipulation detection resistance LLM"
+    query: "AI deception"
 
   - category: evaluation
-    query: "AI benchmark evaluation safety testing stress autonomous agent"
+    query: "AI benchmark evaluation"
 
   - category: method
-    query: "safety methods constraint probabilistic learning hybrid approaches"
+    query: "safety constraint learning"
 
   - category: application
-    query: "autonomous vehicles healthcare finance defense AI safety regulation"
+    query: "autonomous vehicle AI safety"
 
   - category: survey
-    query: "survey review AI safety autonomous agent alignment governance"
+    query: "AI safety survey"
