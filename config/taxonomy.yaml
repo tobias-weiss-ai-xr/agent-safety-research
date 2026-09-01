@@ -312,31 +312,31 @@ arxiv_queries:
 # These are used by fetch_openalex_bulk.py per category
 openalex_queries:
   - category: self-improvement
-    query: "recursive self-improvement language model agent autonomous"
+    query: "self-improving AI autonomous agent intelligence evolution"
 
   - category: alignment
-    query: "agent alignment value alignment objective alignment reward engineering human oversight"
+    query: "AI alignment value alignment reward engineering safety human oversight"
 
   - category: safety-verification
-    query: "formal verification runtime monitoring safety guarantees testing autonomous systems"
+    query: "formal verification safety guarantees autonomous system validation"
 
   - category: interpretability
-    query: "mechanistic interpretability circuit analysis explainable AI transparency reasoning"
+    query: "interpretability explainable AI transparency mechanistic analysis"
 
   - category: governance
-    query: "AI governance policy regulation standards compliance risk management autonomous agents"
+    query: "AI governance policy regulation standards compliance risk management autonomous"
 
   - category: deceptive-ai
-    query: "deceptive AI truthfulness sycophancy deception detection manipulation resistance LLM"
+    query: "deception sycophancy truthfulness AI manipulation detection resistance LLM"
 
   - category: evaluation
-    query: "agent benchmark safety evaluation red teaming stress testing performance metrics"
+    query: "AI benchmark evaluation safety testing stress autonomous agent"
 
   - category: method
-    query: "safety methods constraint-based probabilistic learning-based hybrid approaches"
+    query: "safety methods constraint probabilistic learning hybrid approaches"
 
   - category: application
-    query: "autonomous vehicles healthcare finance military defense AI safety"
+    query: "autonomous vehicles healthcare finance defense AI safety regulation"
 
   - category: survey
-    query: "survey review taxonomy safety alignment autonomous agents AI"
+    query: "survey review AI safety autonomous agent alignment governance"
