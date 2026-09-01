@@ -11,7 +11,7 @@ topic:
   name: "Agent Safety Research"
   short: "agent-safety"
   description: "Safety, alignment, governance, and interpretability of AI agents and autonomous systems."
-  openalex_mailto: "research+safety@tobias-weiss-ai-xr.de"
+  openalex_mailto: "tobias@tobias-weiss.org"
 
 # --- Taxonomy ----------------------------------------------------------
 # Categories = the main axis of your review
